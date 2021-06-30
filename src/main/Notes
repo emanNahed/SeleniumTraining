@@ -1,0 +1,14 @@
+- here put utilities, page classes, libraries, in test will create
+only test cases.
+
+-crm is your applications name, ask Mostafa about the name com.crm.qa.page
+- report package will create automatically.
+
+
+rules:
+    - create class for each page
+
+why pom?
+    - If UI of the page change, we don't need to change the test, Just the code in specific page class.
+    - Sigle repository for the services or operations offered by the page.
+    -all test cases are independent from each others.
